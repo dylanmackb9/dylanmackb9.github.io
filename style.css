@@ -1,13 +1,47 @@
 
 
-html {
-	font-family: ;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Palatino', serif;
+	
 }
 
 
-.fade-in-text {
-  font-family: Arial;
-  font-size: 500px;
-  animation: fadeIn 5s;
-  text-align: center;
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #FFFF;
 }
+
+
+.wrapper{
+	margin: 18% auto;
+	width: 40%;
+	font-size: 84px;
+	color: #96ACB6;
+	text-align: center;
+	letter-spacing: 2px;
+	transition: 0.7s;
+}
+
+
+span{
+	opacity: 0;
+	transition: opacity 300ms;
+}
+
+
+.wrapper span:{
+	transition-delay: 1000ms;
+}
+
+
+.wrapper:hover span{
+	opacity: 1;
+}
+
+
