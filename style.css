@@ -3,3 +3,10 @@
 html {
 	font-family: ;
 }
+
+
+.fade-in-text {
+  font-family: Arial;
+  font-size: 150px;
+  animation: fadeIn 2s;
+}
