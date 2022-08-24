@@ -7,6 +7,7 @@ html {
 
 .fade-in-text {
   font-family: Arial;
-  font-size: 150px;
-  animation: fadeIn 2s;
+  font-size: 500px;
+  animation: fadeIn 5s;
+  text-align: center;
 }
